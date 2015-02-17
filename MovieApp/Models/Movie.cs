@@ -5,6 +5,7 @@ using System.Web;
 
 namespace MovieApp.Models
 {
+    // generated classes from JSON serial
     public class ReleaseDates
     {
         public string theater { get; set; }

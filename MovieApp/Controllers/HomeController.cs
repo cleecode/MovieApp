@@ -8,9 +8,12 @@ namespace MovieApp.Controllers
 {
     public class HomeController : Controller
     {
-        public ActionResult Index(string title)
+        public ActionResult Index(string search)
         {
-            string val = title;
+            //string val = title;
+
+
+
             return View();
         }
 
@@ -24,7 +27,7 @@ namespace MovieApp.Controllers
         public ActionResult Contact()
         {
             ViewBag.Message = "Your contact page.";
-
+            
             return View();
         }
     }
